@@ -138,15 +138,54 @@ const Index = () => {
 
     setLoading(true);
     try {
-      const { data, error } = await supabase.functions.invoke('find_running_courses_enhanced_2025_11_19_11_13', {
+      // 타임아웃 설정 (30초)
+      const timeoutPromise = new Promise((_, reject) => {
+        setTimeout(() => reject(new Error('요청 시간이 초과되었습니다. 잠시 후 다시 시도해주세요.')), 30000);
+      });
+
+      const searchPromise = supabase.functions.invoke('find_running_courses_enhanced_2025_11_19_11_13', {
         body: { query }
       });
 
+      const { data, error } = await Promise.race([searchPromise, timeoutPromise]) as any;
+
       if (error) {
-        throw error;
+        // Supabase 에러 상세 정보 로깅
+        console.error('Supabase error details:', {
+          message: error.message,
+          status: error.status,
+          statusText: error.statusText,
+          error: error.error,
+          context: error.context
+        });
+
+        // 에러 타입에 따른 메시지 처리
+        let errorMessage = "코스 검색 중 오류가 발생했습니다.";
+        
+        if (error.message?.includes('An unexpected error occurred')) {
+          errorMessage = "서버에 일시적인 문제가 발생했습니다. 잠시 후 다시 시도해주세요.";
+        } else if (error.message?.includes('timeout') || error.message?.includes('시간')) {
+          errorMessage = "요청 시간이 초과되었습니다. 검색어를 간단하게 입력해주세요.";
+        } else if (error.message?.includes('network') || error.message?.includes('fetch')) {
+          errorMessage = "네트워크 연결을 확인해주세요.";
+        } else if (error.message) {
+          errorMessage = error.message;
+        }
+
+        throw new Error(errorMessage);
+      }
+
+      // 데이터 유효성 검사
+      if (!data) {
+        throw new Error("검색 결과를 받지 못했습니다. 다시 시도해주세요.");
       }
 
       const result: SearchResult = data;
+      
+      if (!result.courses || !Array.isArray(result.courses)) {
+        throw new Error("검색 결과 형식이 올바르지 않습니다.");
+      }
+
       setCourses(result.courses);
       setSearchParams(result.search_params);
       
@@ -155,11 +194,19 @@ const Index = () => {
         description: `${result.total_found}개의 코스를 찾았습니다.`
       });
     } catch (error: any) {
-      console.error('Search error:', error);
+      console.error('Search error:', {
+        message: error.message,
+        stack: error.stack,
+        error: error
+      });
+      
+      const errorMessage = error.message || "코스 검색 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.";
+      
       toast({
         title: "검색 실패",
-        description: error.message || "코스 검색 중 오류가 발생했습니다.",
-        variant: "destructive"
+        description: errorMessage,
+        variant: "destructive",
+        duration: 5000
       });
     } finally {
       setLoading(false);
