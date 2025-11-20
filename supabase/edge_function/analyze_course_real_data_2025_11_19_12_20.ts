@@ -1,3 +1,11 @@
+/**
+ * @deprecated 이 파일은 더 이상 사용되지 않습니다.
+ * 대신 precompute_course_safety_data_2025_11_19_13_00.ts를 사용하세요.
+ * 
+ * 사전 계산된 안전데이터를 읽어오려면 DB에서 직접 조회하거나,
+ * 새로운 precompute 스크립트를 사용하여 배치로 계산하세요.
+ */
+
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
@@ -30,72 +38,58 @@ serve(async (req) => {
   }
 
   try {
-    const { course_id, course_name, start_lat, start_lng, distance_km, coordinates } = await req.json()
+    // 사전 계산된 데이터를 DB에서 읽어오기
+    const { course_id } = await req.json()
     
-    console.log(`[analyze_course_real_data] Analyzing course: ${course_name}`)
-
-    // 공공데이터 API 키들
-    const PUBLIC_DATA_API_KEY = "OLgszcwJfXCjuy1X+Kih8aTmprkibbu70aug3deMVGtzWhoc/Ss++kbhLuBxE7Okc0Ai2zQ8xYKhtvZ3P4ARsA=="
-    const kakaoApiKey = Deno.env.get('KAKAO_REST_API_KEY')
-
-    // 1. 실제 가로등 정보 조회
-    const lightingAnalysis = await analyzeLightingWithRealData(
-      start_lat, start_lng, distance_km, PUBLIC_DATA_API_KEY
-    )
-
-    // 2. 카카오맵으로 주변 시설 조회
-    const facilityAnalysis = await analyzeFacilitiesWithKakao(
-      start_lat, start_lng, kakaoApiKey
-    )
-
-    // 3. 크루 친화성 분석
-    const crewAnalysis = analyzeCrewFriendliness(
-      lightingAnalysis, facilityAnalysis, distance_km
-    )
-
-    // 4. 종합 점수 계산
-    const finalAnalysis: CourseAnalysis = {
-      course_id,
-      lighting_score: lightingAnalysis.score,
-      safety_score: calculateSafetyScore(lightingAnalysis, facilityAnalysis),
-      crew_friendly: crewAnalysis.is_crew_friendly,
-      max_group_size: crewAnalysis.max_group_size,
-      facilities: facilityAnalysis.available_facilities,
-      analysis_details: {
-        nearby_lights_count: lightingAnalysis.lights_count,
-        light_density_per_km: lightingAnalysis.density_per_km,
-        parking_available: facilityAnalysis.has_parking,
-        restroom_nearby: facilityAnalysis.has_restroom,
-        convenience_stores: facilityAnalysis.convenience_count,
-        path_width_estimated: estimatePathWidth(course_name, distance_km)
-      }
+    if (!course_id) {
+      throw new Error('course_id is required')
     }
 
-    // 5. 데이터베이스 업데이트
     const supabaseUrl = Deno.env.get('SUPABASE_URL')!
     const supabaseServiceKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!
     const supabase = createClient(supabaseUrl, supabaseServiceKey)
 
-    const { error: updateError } = await supabase
+    const { data: course, error } = await supabase
       .from('running_courses_2025_11_19_10_42')
-      .update({
-        lighting_score: finalAnalysis.lighting_score,
-        park_water_score: finalAnalysis.safety_score,
-        crew_friendly: finalAnalysis.crew_friendly,
-        max_group_size: finalAnalysis.max_group_size,
-        facilities: finalAnalysis.facilities,
-        updated_at: new Date().toISOString()
-      })
+      .select('id, name, lighting_score, park_water_score, crew_friendly, max_group_size, facilities, safety_data')
       .eq('id', course_id)
+      .single()
 
-    if (updateError) {
-      console.error('Database update error:', updateError)
+    if (error || !course) {
+      throw new Error(`Course not found: ${course_id}`)
+    }
+
+    // 사전 계산된 데이터 반환
+    const analysis = {
+      course_id: course.id,
+      lighting_score: course.lighting_score || 0.5,
+      safety_score: course.park_water_score || 0.5,
+      crew_friendly: course.crew_friendly || false,
+      max_group_size: course.max_group_size || 5,
+      facilities: course.facilities || [],
+      analysis_details: course.safety_data?.lighting || {
+        nearby_lights_count: 0,
+        light_density_per_km: 0,
+        parking_available: course.parking_available || false,
+        restroom_nearby: course.facilities?.includes('화장실') || false,
+        convenience_stores: course.safety_data?.facilities?.convenience_count || 0,
+        path_width_estimated: 2.5
+      }
     }
 
     return new Response(
-      JSON.stringify(finalAnalysis),
+      JSON.stringify(analysis),
       { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
     )
+
+    /* 기존 실시간 계산 코드 (deprecated)
+    const { course_id, course_name, start_lat, start_lng, distance_km, coordinates } = await req.json()
+    
+    console.log(`[analyze_course_real_data] Analyzing course: ${course_name}`)
+
+    // 기존 실시간 계산 코드는 제거됨
+    // 사전 계산은 precompute_course_safety_data_2025_11_19_13_00.ts를 사용하세요
+    */
 
   } catch (error) {
     console.error('[analyze_course_real_data] Error:', error)
