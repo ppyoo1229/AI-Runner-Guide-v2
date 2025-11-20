@@ -26,6 +26,11 @@ echo "📌 STEP 2: 카카오맵 API로 좌표/지명 보정"
 python scripts/step2_kakao_geocode_courses.py
 echo ""
 
+# STEP 2.5: 카카오맵 주소로부터 지역 태그 업데이트
+echo "📌 STEP 2.5: 카카오맵 주소로부터 지역 태그 업데이트"
+python scripts/step2_update_region_tags_from_kakao.py
+echo ""
+
 # STEP 3: 안전데이터 적재
 echo "📌 STEP 3: 안전데이터 적재"
 python scripts/step3_load_safety_data.py

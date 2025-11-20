@@ -1,11 +1,10 @@
-# 데이터 정제 파이프라인 의존성
+# Data processing pipeline dependencies
 
-# Supabase 클라이언트
+# Supabase client
 supabase>=2.0.0
 
-# HTTP 클라이언트
+# HTTP client
 httpx>=0.24.0
 
-# 데이터 처리
+# Data processing
 pandas>=2.0.0
-
