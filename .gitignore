@@ -99,7 +99,28 @@ Thumbs.db
 # --- Uploaded Files ---
 uploaded_files/
 
+# --- Python Virtual Environment ---
+runenv/
+venv/
+env/
+ENV/
+.venv/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
 # --- Documentation (exclude from git) ---
 CURRENT_LIMITATIONS.md
 DEPLOYMENT.md
+
+# --- Environment Setup Scripts (contain sensitive keys) ---
+scripts/setup_env.ps1
+scripts/run_step2.ps1
+scripts/run_step3.ps1
+scripts/run_step4.ps1
+scripts/run_all.ps1
 

@@ -1,0 +1,830 @@
+[
+  {
+    "original": "한강",
+    "status": "not_found"
+  },
+  {
+    "original": "안양천",
+    "status": "not_found"
+  },
+  {
+    "original": "당현천",
+    "status": "not_found"
+  },
+  {
+    "original": "중랑천",
+    "status": "not_found"
+  },
+  {
+    "original": "양재천",
+    "status": "not_found"
+  },
+  {
+    "original": "목감천",
+    "status": "not_found"
+  },
+  {
+    "original": "불광천",
+    "status": "not_found"
+  },
+  {
+    "original": "정릉천",
+    "status": "not_found"
+  },
+  {
+    "original": "성북천",
+    "status": "not_found"
+  },
+  {
+    "original": "우이천",
+    "status": "not_found"
+  },
+  {
+    "original": "석촌호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "송파둘레길 탄천길",
+    "status": "not_found"
+  },
+  {
+    "original": "송파둘레길 한강길",
+    "status": "not_found"
+  },
+  {
+    "original": "송파둘레길 성내천길",
+    "status": "not_found"
+  },
+  {
+    "original": "송파둘레길 장지천길",
+    "status": "not_found"
+  },
+  {
+    "original": "잠실종합운동장 보조경기장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "올림픽공원 순환로",
+    "status": "not_found"
+  },
+  {
+    "original": "위례 휴먼링",
+    "status": "not_found"
+  },
+  {
+    "original": "경복궁~청와대 러닝코스",
+    "status": "not_found"
+  },
+  {
+    "original": "인왕산 둘레길",
+    "status": "not_found"
+  },
+  {
+    "original": "인왕산로",
+    "status": "not_found"
+  },
+  {
+    "original": "안국역~성북동 와룡공원길",
+    "status": "not_found"
+  },
+  {
+    "original": "남산둘레길",
+    "status": "not_found"
+  },
+  {
+    "original": "소월길",
+    "status": "not_found"
+  },
+  {
+    "original": "연세대 대운동장",
+    "status": "not_found"
+  },
+  {
+    "original": "서강대 운동장",
+    "status": "not_found"
+  },
+  {
+    "original": "하늘공원 러닝코스",
+    "status": "not_found"
+  },
+  {
+    "original": "노을공원 러닝코스",
+    "status": "not_found"
+  },
+  {
+    "original": "불광천 전구간",
+    "status": "not_found"
+  },
+  {
+    "original": "은평둘레길",
+    "status": "not_found"
+  },
+  {
+    "original": "신도고~하나고 북한산 조망 코스",
+    "status": "not_found"
+  },
+  {
+    "original": "한성대 입구~북악스카이웨이 업힐",
+    "status": "not_found"
+  },
+  {
+    "original": "아리랑고개~팔각정 업힐",
+    "status": "not_found"
+  },
+  {
+    "original": "서울시립대 순환 코스",
+    "status": "not_found"
+  },
+  {
+    "original": "양재천 전 구간",
+    "status": "not_found"
+  },
+  {
+    "original": "대치유수지체육공원 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "반포운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "서울숲 주변 코스",
+    "status": "not_found"
+  },
+  {
+    "original": "안양천 신정교 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "여의도공원 순환로",
+    "status": "not_found"
+  },
+  {
+    "original": "국회운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "선유도공원 러닝코스",
+    "status": "not_found"
+  },
+  {
+    "original": "도림천",
+    "status": "not_found"
+  },
+  {
+    "original": "뚝섬유원지 러닝로",
+    "status": "not_found"
+  },
+  {
+    "original": "성산대교 러닝로",
+    "status": "not_found"
+  },
+  {
+    "original": "청담대교~성수대교",
+    "status": "not_found"
+  },
+  {
+    "original": "어린이대공원 둘레길",
+    "status": "not_found"
+  },
+  {
+    "original": "망우역사문화공원",
+    "status": "not_found"
+  },
+  {
+    "original": "창골축구장 조깅트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "관악산 일주문~제2광장",
+    "status": "not_found"
+  },
+  {
+    "original": "서울대 캠퍼스 순환",
+    "status": "not_found"
+  },
+  {
+    "original": "보라매공원",
+    "status": "not_found"
+  },
+  {
+    "original": "이촌한강공원",
+    "status": "not_found"
+  },
+  {
+    "original": "효창운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "목동운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "요트경기장~마린시티~해운대~달맞이 러닝코스",
+    "status": "not_found"
+  },
+  {
+    "original": "온천천 하천코스",
+    "status": "not_found"
+  },
+  {
+    "original": "부산대 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "사직보조경기장",
+    "status": "not_found"
+  },
+  {
+    "original": "구덕운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "사하구",
+    "status": "not_found"
+  },
+  {
+    "original": "기장 월드컵 빌리지",
+    "status": "not_found"
+  },
+  {
+    "original": "부산진구",
+    "status": "not_found"
+  },
+  {
+    "original": "어린이대공원 코스",
+    "status": "not_found"
+  },
+  {
+    "original": "영도구",
+    "status": "not_found"
+  },
+  {
+    "original": "금호강 러닝로",
+    "status": "not_found"
+  },
+  {
+    "original": "신천 러닝로",
+    "status": "not_found"
+  },
+  {
+    "original": "달서구 – 두류공원",
+    "status": "not_found"
+  },
+  {
+    "original": "중구 – 수성교",
+    "status": "not_found"
+  },
+  {
+    "original": "북구 – 경북대 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "수성구 – 수성못",
+    "status": "not_found"
+  },
+  {
+    "original": "동구",
+    "status": "not_found"
+  },
+  {
+    "original": "달성군",
+    "status": "not_found"
+  },
+  {
+    "original": "갑천",
+    "status": "not_found"
+  },
+  {
+    "original": "유성구 – 갑천 자전거도로",
+    "status": "not_found"
+  },
+  {
+    "original": "대덕구",
+    "status": "not_found"
+  },
+  {
+    "original": "서구",
+    "status": "not_found"
+  },
+  {
+    "original": "영산강",
+    "status": "not_found"
+  },
+  {
+    "original": "광주천",
+    "status": "not_found"
+  },
+  {
+    "original": "전남대학교 대운동장",
+    "status": "not_found"
+  },
+  {
+    "original": "조선대학교 대운동장",
+    "status": "not_found"
+  },
+  {
+    "original": "둘레길8코스",
+    "status": "not_found"
+  },
+  {
+    "original": "송도달빛공원",
+    "status": "not_found"
+  },
+  {
+    "original": "송도센트럴파크",
+    "status": "not_found"
+  },
+  {
+    "original": "문학경기장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "인하대 운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "인천대공원",
+    "status": "not_found"
+  },
+  {
+    "original": "해오름호수",
+    "status": "not_found"
+  },
+  {
+    "original": "남동근린공원 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "구민운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "아시아드보조경기장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "청라호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "정서진자전거도로",
+    "status": "not_found"
+  },
+  {
+    "original": "아라뱃길",
+    "status": "not_found"
+  },
+  {
+    "original": "태화강 국가정원 러닝코스",
+    "status": "not_found"
+  },
+  {
+    "original": "안양천 전구간",
+    "status": "not_found"
+  },
+  {
+    "original": "하안동 시민종합운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "철산동 시민운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "상동호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "상동 중앙공원",
+    "status": "not_found"
+  },
+  {
+    "original": "부천종합운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "굴포천",
+    "status": "not_found"
+  },
+  {
+    "original": "부천체육관 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "탄천길",
+    "status": "not_found"
+  },
+  {
+    "original": "황새울공원~율동공원",
+    "status": "not_found"
+  },
+  {
+    "original": "율동공원 1바퀴",
+    "status": "not_found"
+  },
+  {
+    "original": "성남종합운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "탄천종합운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "기흥호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "경안천",
+    "status": "not_found"
+  },
+  {
+    "original": "미르스타디움 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "동탄여울공원",
+    "status": "not_found"
+  },
+  {
+    "original": "동탄호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "치동천",
+    "status": "not_found"
+  },
+  {
+    "original": "동탄센트럴파크",
+    "status": "not_found"
+  },
+  {
+    "original": "제부도 해안",
+    "status": "not_found"
+  },
+  {
+    "original": "봉담2 생태체육공원 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "향남종합운동장 외곽",
+    "status": "not_found"
+  },
+  {
+    "original": "오산천",
+    "status": "not_found"
+  },
+  {
+    "original": "오산종합운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "학의천~안양천 연결코스",
+    "status": "not_found"
+  },
+  {
+    "original": "박달동 하천로",
+    "status": "not_found"
+  },
+  {
+    "original": "석수동 산책로",
+    "status": "not_found"
+  },
+  {
+    "original": "물왕호수",
+    "status": "not_found"
+  },
+  {
+    "original": "배곧한울공원",
+    "status": "not_found"
+  },
+  {
+    "original": "물왕호수~갯골생태공원~관곡지",
+    "status": "not_found"
+  },
+  {
+    "original": "화정천",
+    "status": "not_found"
+  },
+  {
+    "original": "안산천",
+    "status": "not_found"
+  },
+  {
+    "original": "화랑유원지",
+    "status": "not_found"
+  },
+  {
+    "original": "안산호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "광교호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "원천리천",
+    "status": "not_found"
+  },
+  {
+    "original": "의정부종합운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "소사벌레포츠타운 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "배다리생태공원",
+    "status": "not_found"
+  },
+  {
+    "original": "통복천",
+    "status": "not_found"
+  },
+  {
+    "original": "평택호 자전거길",
+    "status": "not_found"
+  },
+  {
+    "original": "라베니체 수변공원",
+    "status": "not_found"
+  },
+  {
+    "original": "김포한강신도시 생태공원",
+    "status": "not_found"
+  },
+  {
+    "original": "일산호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "어울림누리 별무리경기장",
+    "status": "not_found"
+  },
+  {
+    "original": "공릉천",
+    "status": "not_found"
+  },
+  {
+    "original": "파주스타디움 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "운정호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "건강공원 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "소리천",
+    "status": "not_found"
+  },
+  {
+    "original": "별내카페거리~용암천",
+    "status": "not_found"
+  },
+  {
+    "original": "왕숙천",
+    "status": "not_found"
+  },
+  {
+    "original": "중랑천 남양주 구간",
+    "status": "not_found"
+  },
+  {
+    "original": "미사리 조정경기장",
+    "status": "not_found"
+  },
+  {
+    "original": "금모래은모래캠핑장~강천보",
+    "status": "not_found"
+  },
+  {
+    "original": "관문체육공원 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "군포시 시민체육광장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "학의천",
+    "status": "not_found"
+  },
+  {
+    "original": "탄천",
+    "status": "not_found"
+  },
+  {
+    "original": "구드레공원~규암정류소",
+    "status": "not_found"
+  },
+  {
+    "original": "백제보전망대",
+    "status": "not_found"
+  },
+  {
+    "original": "노태공원",
+    "status": "not_found"
+  },
+  {
+    "original": "성성호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "축구센터",
+    "status": "not_found"
+  },
+  {
+    "original": "단대천호지",
+    "status": "not_found"
+  },
+  {
+    "original": "신정호",
+    "status": "not_found"
+  },
+  {
+    "original": "곡교천",
+    "status": "not_found"
+  },
+  {
+    "original": "공주대 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "금강신관공원",
+    "status": "not_found"
+  },
+  {
+    "original": "금강보행교",
+    "status": "not_found"
+  },
+  {
+    "original": "방숙천",
+    "status": "not_found"
+  },
+  {
+    "original": "제천",
+    "status": "not_found"
+  },
+  {
+    "original": "호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "은파호수공원",
+    "status": "not_found"
+  },
+  {
+    "original": "남강변",
+    "status": "not_found"
+  },
+  {
+    "original": "경상대 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "혁신도시 영천강",
+    "status": "not_found"
+  },
+  {
+    "original": "종합운동장",
+    "status": "not_found"
+  },
+  {
+    "original": "스포츠파크",
+    "status": "not_found"
+  },
+  {
+    "original": "창원천",
+    "status": "not_found"
+  },
+  {
+    "original": "양산천",
+    "status": "not_found"
+  },
+  {
+    "original": "연초뚝길",
+    "status": "not_found"
+  },
+  {
+    "original": "상문고~계룡중 산책로",
+    "status": "not_found"
+  },
+  {
+    "original": "해반천",
+    "status": "not_found"
+  },
+  {
+    "original": "연지공원",
+    "status": "not_found"
+  },
+  {
+    "original": "진영공설운동장",
+    "status": "not_found"
+  },
+  {
+    "original": "호민저수지",
+    "status": "not_found"
+  },
+  {
+    "original": "밀양강 둔치",
+    "status": "not_found"
+  },
+  {
+    "original": "형산강",
+    "status": "not_found"
+  },
+  {
+    "original": "철길숲 연계코스",
+    "status": "not_found"
+  },
+  {
+    "original": "보문호수",
+    "status": "not_found"
+  },
+  {
+    "original": "남매지",
+    "status": "not_found"
+  },
+  {
+    "original": "동락공원",
+    "status": "not_found"
+  },
+  {
+    "original": "금오공대 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "삼천천",
+    "status": "not_found"
+  },
+  {
+    "original": "전주천",
+    "status": "not_found"
+  },
+  {
+    "original": "한옥마을",
+    "status": "not_found"
+  },
+  {
+    "original": "공설운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "금강하구둑",
+    "status": "not_found"
+  },
+  {
+    "original": "경포천",
+    "status": "not_found"
+  },
+  {
+    "original": "영산강 하구둑~삼호대교",
+    "status": "not_found"
+  },
+  {
+    "original": "평화광장~갓바위",
+    "status": "not_found"
+  },
+  {
+    "original": "옛철길자전거길",
+    "status": "not_found"
+  },
+  {
+    "original": "의암호",
+    "status": "not_found"
+  },
+  {
+    "original": "공지천",
+    "status": "not_found"
+  },
+  {
+    "original": "소양강산책로",
+    "status": "not_found"
+  },
+  {
+    "original": "중도",
+    "status": "not_found"
+  },
+  {
+    "original": "경포대",
+    "status": "not_found"
+  },
+  {
+    "original": "영랑호 순환로",
+    "status": "not_found"
+  },
+  {
+    "original": "제주 애향운동장 트랙",
+    "status": "not_found"
+  },
+  {
+    "original": "사라봉~오현고~화북포구~남생이못",
+    "status": "not_found"
+  }
+]

@@ -1,0 +1,5113 @@
+[
+  {
+    "course_name": "한강",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "하천·천 기반"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "한강",
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "한강",
+      "하천"
+    ]
+  },
+  {
+    "course_name": "안양천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울",
+      "경기도"
+    ],
+    "district_tags": [
+      "안양시",
+      "하천·천 기반"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "당현천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "하천·천 기반"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "중랑천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울",
+      "경기도"
+    ],
+    "district_tags": [
+      "하천·천 기반"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "양재천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울",
+      "경기도"
+    ],
+    "district_tags": [
+      "하천·천 기반"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "목감천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울",
+      "경기도"
+    ],
+    "district_tags": [
+      "하천·천 기반",
+      "광명시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "불광천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "하천·천 기반"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "정릉천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "성북",
+      "하천·천 기반",
+      "강북"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "성북",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "성북천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "성북",
+      "하천·천 기반",
+      "강북"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "성북",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "우이천",
+    "description": "서울 하천·천 기반의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "하천·천 기반"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "하천·천 기반",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "석촌호수공원",
+    "description": "서울 송파구의 공원 러닝 코스입니다. 총 거리는 약 2.5km입니다.",
+    "length_km": 2.5,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "송파둘레길 탄천길",
+    "description": "서울 송파구의 하천 러닝 코스입니다. 총 거리는 약 7.5km입니다.",
+    "length_km": 7.5,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "송파둘레길 한강길",
+    "description": "서울 송파구의 하천 러닝 코스입니다. 총 거리는 약 3.2km입니다.",
+    "length_km": 3.2,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "한강",
+      "하천"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "한강",
+      "하천"
+    ]
+  },
+  {
+    "course_name": "송파둘레길 성내천길",
+    "description": "서울 송파구의 하천 러닝 코스입니다. 총 거리는 약 6.0km입니다.",
+    "length_km": 6.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "송파둘레길 장지천길",
+    "description": "서울 송파구의 하천 러닝 코스입니다. 총 거리는 약 4.4km입니다.",
+    "length_km": 4.4,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "잠실종합운동장 보조경기장 트랙",
+    "description": "서울 송파구의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [
+      "잠실종합운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "올림픽공원 순환로",
+    "description": "서울 송파구의 공원 러닝 코스입니다. 총 거리는 약 5.0km입니다.",
+    "length_km": 5.0,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "위례 휴먼링",
+    "description": "서울 송파구의 기타 러닝 코스입니다. 총 거리는 약 4.4km입니다.",
+    "length_km": 4.4,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "송파구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "서울",
+    "district": "송파구",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "경복궁~청와대 러닝코스",
+    "description": "서울 종로구의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "종로구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "서울",
+    "district": "종로구",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "인왕산 둘레길",
+    "description": "서울 종로구의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "종로구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "종로구",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "인왕산로",
+    "description": "서울 종로구의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "종로구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "종로구",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "안국역~성북동 와룡공원길",
+    "description": "서울 종로구의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "종로구"
+    ],
+    "neighborhood_tags": [
+      "성북동"
+    ],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "종로구",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "남산둘레길",
+    "description": "서울 중구의 업힐 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "업힐",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "중구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "중구",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "소월길",
+    "description": "서울 중구의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": "업힐 구간 포함",
+    "difficulty": "hard",
+    "elevation": "업힐",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "중구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "중구",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "연세대 대운동장",
+    "description": "서울 서대문의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "은평",
+      "마포",
+      "서대문"
+    ],
+    "neighborhood_tags": [
+      "대운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "은평",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "서강대 운동장",
+    "description": "서울 서대문의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "은평",
+      "마포",
+      "서대문"
+    ],
+    "neighborhood_tags": [
+      "운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "은평",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "하늘공원 러닝코스",
+    "description": "서울 서대문의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "은평",
+      "마포",
+      "서대문"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "은평",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "노을공원 러닝코스",
+    "description": "서울 서대문의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "은평",
+      "마포",
+      "서대문"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "은평",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "불광천 전구간",
+    "description": "서울 서대문의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": "연계 코스 가능",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "은평",
+      "마포",
+      "서대문"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "은평",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "은평둘레길",
+    "description": "서울 서대문의 산책로 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "산책로",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "은평",
+      "마포",
+      "서대문"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "산책로"
+    ],
+    "city": "서울",
+    "district": "은평",
+    "tags": [
+      "산책로"
+    ]
+  },
+  {
+    "course_name": "신도고~하나고 북한산 조망 코스",
+    "description": "서울 서대문의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "은평",
+      "마포",
+      "서대문"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "은평",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "한성대 입구~북악스카이웨이 업힐",
+    "description": "서울 성북의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": "업힐 구간 포함",
+    "difficulty": "hard",
+    "elevation": "업힐",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "성북",
+      "강북"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "성북",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "아리랑고개~팔각정 업힐",
+    "description": "서울 성북의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": "업힐 구간 포함",
+    "difficulty": "hard",
+    "elevation": "업힐",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "성북",
+      "강북"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "성북",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "서울시립대 순환 코스",
+    "description": "서울 성북의 기타 러닝 코스입니다. 총 거리는 약 1.5km입니다.",
+    "length_km": 1.5,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "성북",
+      "강북"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "서울",
+    "district": "성북",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "양재천 전 구간",
+    "description": "서울 강남의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "서초",
+      "강남"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "서초",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "대치유수지체육공원 트랙",
+    "description": "서울 강남의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "서초",
+      "강남"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙",
+      "공원"
+    ],
+    "city": "서울",
+    "district": "서초",
+    "tags": [
+      "트랙",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "반포운동장 트랙",
+    "description": "서울 강남의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "서초",
+      "강남"
+    ],
+    "neighborhood_tags": [
+      "반포운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "서초",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "서울숲 주변 코스",
+    "description": "서울 강남의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "서초",
+      "강남"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "서울",
+    "district": "서초",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "안양천 신정교 트랙",
+    "description": "서울 영등포의 트랙 러닝 코스입니다. 총 거리는 약 340m입니다.",
+    "length_km": 0.34,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "구로",
+      "금천",
+      "영등포"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천",
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "구로",
+    "tags": [
+      "트랙",
+      "하천"
+    ]
+  },
+  {
+    "course_name": "여의도공원 순환로",
+    "description": "서울 영등포의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "구로",
+      "금천",
+      "영등포"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "구로",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "국회운동장 트랙",
+    "description": "서울 영등포의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "구로",
+      "금천",
+      "영등포"
+    ],
+    "neighborhood_tags": [
+      "국회운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "구로",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "선유도공원 러닝코스",
+    "description": "서울 영등포의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "구로",
+      "금천",
+      "영등포"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "구로",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "도림천",
+    "description": "서울 영등포의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "구로",
+      "금천",
+      "영등포"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "구로",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "뚝섬유원지 러닝로",
+    "description": "서울 기타 서울 코스의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "성산대교 러닝로",
+    "description": "서울 기타 서울 코스의 업힐 러닝 코스입니다. 총 거리는 약 20.0km입니다.",
+    "length_km": 20.0,
+    "course_type": "업힐",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "청담대교~성수대교",
+    "description": "서울 기타 서울 코스의 기타 러닝 코스입니다. 총 거리는 약 2.5km입니다.",
+    "length_km": 2.5,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "어린이대공원 둘레길",
+    "description": "서울 기타 서울 코스의 공원 러닝 코스입니다. 총 거리는 약 2.0km입니다.",
+    "length_km": 2.05,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "망우역사문화공원",
+    "description": "서울 기타 서울 코스의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": "업힐 구간 포함",
+    "difficulty": "hard",
+    "elevation": "업힐",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "창골축구장 조깅트랙",
+    "description": "서울 기타 서울 코스의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "관악산 일주문~제2광장",
+    "description": "서울 기타 서울 코스의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "서울대 캠퍼스 순환",
+    "description": "서울 기타 서울 코스의 기타 러닝 코스입니다. 총 거리는 약 5.0km입니다.",
+    "length_km": 5.0,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "보라매공원",
+    "description": "서울 기타 서울 코스의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "이촌한강공원",
+    "description": "서울 기타 서울 코스의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "한강",
+      "하천",
+      "공원"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "한강",
+      "하천",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "효창운동장 트랙",
+    "description": "서울 기타 서울 코스의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [
+      "효창운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "목동운동장 트랙",
+    "description": "서울 기타 서울 코스의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "서울"
+    ],
+    "district_tags": [
+      "기타 서울 코스"
+    ],
+    "neighborhood_tags": [
+      "목동운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "서울",
+    "district": "기타 서울 코스",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "요트경기장~마린시티~해운대~달맞이 러닝코스",
+    "description": "부산의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "부산",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "온천천 하천코스",
+    "description": "부산 금정구의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [
+      "금정구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "부산",
+    "district": "금정구",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "부산대 트랙",
+    "description": "부산의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "부산",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "사직보조경기장",
+    "description": "부산 동래구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [
+      "동래구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "부산",
+    "district": "동래구",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "구덕운동장 트랙",
+    "description": "부산 서구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [
+      "서구"
+    ],
+    "neighborhood_tags": [
+      "구덕운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "부산",
+    "district": "서구",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "사하구",
+    "description": "부산의 하천 러닝 코스입니다. 총 거리는 약 8.5km입니다.",
+    "length_km": 8.5,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "부산",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "기장 월드컵 빌리지",
+    "description": "부산의 기타 러닝 코스입니다. 총 거리는 약 2.5km입니다.",
+    "length_km": 2.5,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "부산",
+    "district": "",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "부산진구",
+    "description": "부산의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "부산",
+    "district": "",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "어린이대공원 코스",
+    "description": "부산의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "부산",
+    "district": "",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "영도구",
+    "description": "부산의 기타 러닝 코스입니다. 총 거리는 약 3.5km입니다.",
+    "length_km": 3.5,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "부산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "부산",
+    "district": "",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "금호강 러닝로",
+    "description": "대구의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "신천 러닝로",
+    "description": "대구의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "달서구 – 두류공원",
+    "description": "대구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천",
+      "트랙",
+      "공원"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "트랙",
+      "하천",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "중구 – 수성교",
+    "description": "대구의 트랙 러닝 코스입니다. 총 거리는 약 300m입니다.",
+    "length_km": 0.3,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "북구 – 경북대 트랙",
+    "description": "대구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "수성구 – 수성못",
+    "description": "대구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "동구",
+    "description": "대구의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "대전",
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙",
+      "기타"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "트랙",
+      "기타"
+    ]
+  },
+  {
+    "course_name": "달성군",
+    "description": "대구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대구"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙",
+      "공원"
+    ],
+    "city": "대구",
+    "district": "",
+    "tags": [
+      "트랙",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "갑천",
+    "description": "대전의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": "연계 코스 가능",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "대전"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "대전",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "유성구 – 갑천 자전거도로",
+    "description": "대전의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대전"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천",
+      "트랙"
+    ],
+    "city": "대전",
+    "district": "",
+    "tags": [
+      "트랙",
+      "하천"
+    ]
+  },
+  {
+    "course_name": "대덕구",
+    "description": "대전의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대전"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "대전",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "서구",
+    "description": "대전의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "대전"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙",
+      "공원"
+    ],
+    "city": "대전",
+    "district": "",
+    "tags": [
+      "트랙",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "영산강",
+    "description": "광주의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "광주"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "광주",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "광주천",
+    "description": "광주의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "광주"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "광주",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "전남대학교 대운동장",
+    "description": "광주의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "광주"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [
+      "대운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "광주",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "조선대학교 대운동장",
+    "description": "광주의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "광주"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [
+      "대운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "광주",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "둘레길8코스",
+    "description": "인천 연수구의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "연수구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "인천",
+    "district": "연수구",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "송도달빛공원",
+    "description": "인천 연수구의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "연수구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "인천",
+    "district": "연수구",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "송도센트럴파크",
+    "description": "인천 연수구의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "연수구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "인천",
+    "district": "연수구",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "문학경기장 트랙",
+    "description": "인천 연수구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "연수구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "인천",
+    "district": "연수구",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "인하대 운동장 트랙",
+    "description": "인천 미추홀구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "미추홀구"
+    ],
+    "neighborhood_tags": [
+      "운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "인천",
+    "district": "미추홀구",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "인천대공원",
+    "description": "인천 남동구의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "남동구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천",
+      "공원"
+    ],
+    "city": "인천",
+    "district": "남동구",
+    "tags": [
+      "하천",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "해오름호수",
+    "description": "인천 남동구의 호수 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "남동구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수"
+    ],
+    "city": "인천",
+    "district": "남동구",
+    "tags": [
+      "호수"
+    ]
+  },
+  {
+    "course_name": "남동근린공원 트랙",
+    "description": "인천 남동구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "남동구"
+    ],
+    "neighborhood_tags": [
+      "남동"
+    ],
+    "natural_tags": [
+      "트랙",
+      "공원"
+    ],
+    "city": "인천",
+    "district": "남동구",
+    "tags": [
+      "트랙",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "구민운동장 트랙",
+    "description": "인천 동구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "동구"
+    ],
+    "neighborhood_tags": [
+      "구민운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "인천",
+    "district": "동구",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "아시아드보조경기장 트랙",
+    "description": "인천 서구의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "서구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "인천",
+    "district": "서구",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "청라호수공원",
+    "description": "인천 서구의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "서구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "인천",
+    "district": "서구",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "정서진자전거도로",
+    "description": "인천 서구의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "인천"
+    ],
+    "district_tags": [
+      "서구"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "인천",
+    "district": "서구",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "아라뱃길",
+    "description": "인천 서구의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도",
+      "인천"
+    ],
+    "district_tags": [
+      "서구",
+      "김포시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천",
+      "기타"
+    ],
+    "city": "인천",
+    "district": "서구",
+    "tags": [
+      "하천",
+      "기타"
+    ]
+  },
+  {
+    "course_name": "태화강 국가정원 러닝코스",
+    "description": "울산의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "울산"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "울산",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "안양천 전구간",
+    "description": "서울, 경기도 광명시의 하천 러닝 코스입니다. 총 거리는 약 20.0km입니다.",
+    "length_km": 20.0,
+    "course_type": "하천",
+    "note": "연계 코스 가능",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울",
+      "경기도"
+    ],
+    "district_tags": [
+      "광명시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "광명시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "하안동 시민종합운동장 트랙",
+    "description": "경기도 광명시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "광명시"
+    ],
+    "neighborhood_tags": [
+      "시민종합운동",
+      "하안동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "광명시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "철산동 시민운동장 트랙",
+    "description": "경기도 광명시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "광명시"
+    ],
+    "neighborhood_tags": [
+      "철산동",
+      "시민운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "광명시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "상동호수공원",
+    "description": "경기도 부천시의 호수 러닝 코스입니다. 총 거리는 약 1.4km입니다.",
+    "length_km": 1.35,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "부천시"
+    ],
+    "neighborhood_tags": [
+      "상동"
+    ],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "부천시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "상동 중앙공원",
+    "description": "경기도 부천시의 공원 러닝 코스입니다. 총 거리는 약 1.0km입니다.",
+    "length_km": 1.0,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "부천시"
+    ],
+    "neighborhood_tags": [
+      "상동"
+    ],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "부천시",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "부천종합운동장 트랙",
+    "description": "경기도 부천시의 트랙 러닝 코스입니다. 총 거리는 약 800m입니다.",
+    "length_km": 0.8,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "부천시"
+    ],
+    "neighborhood_tags": [
+      "부천종합운동"
+    ],
+    "natural_tags": [
+      "하천",
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "부천시",
+    "tags": [
+      "트랙",
+      "하천"
+    ]
+  },
+  {
+    "course_name": "굴포천",
+    "description": "서울, 경기도 부천시의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울",
+      "경기도"
+    ],
+    "district_tags": [
+      "부천시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "부천시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "부천체육관 트랙",
+    "description": "경기도 부천시의 트랙 러닝 코스입니다. 총 거리는 약 600m입니다.",
+    "length_km": 0.6,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "부천시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천",
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "부천시",
+    "tags": [
+      "트랙",
+      "하천"
+    ]
+  },
+  {
+    "course_name": "탄천길",
+    "description": "경기도 성남시의 하천 러닝 코스입니다. 총 거리는 약 20.0km입니다.",
+    "length_km": 20.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "성남시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "성남시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "황새울공원~율동공원",
+    "description": "경기도 성남시의 공원 러닝 코스입니다. 총 거리는 약 7.0km입니다.",
+    "length_km": 7.0,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "성남시"
+    ],
+    "neighborhood_tags": [
+      "율동"
+    ],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "성남시",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "율동공원 1바퀴",
+    "description": "경기도 성남시의 호수 러닝 코스입니다. 총 거리는 약 1.8km입니다.",
+    "length_km": 1.8,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "성남시"
+    ],
+    "neighborhood_tags": [
+      "율동"
+    ],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "성남시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "성남종합운동장 트랙",
+    "description": "경기도 성남시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "성남시"
+    ],
+    "neighborhood_tags": [
+      "성남종합운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "성남시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "탄천종합운동장 트랙",
+    "description": "경기도 성남시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "성남시"
+    ],
+    "neighborhood_tags": [
+      "탄천종합운동"
+    ],
+    "natural_tags": [
+      "하천",
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "성남시",
+    "tags": [
+      "트랙",
+      "하천"
+    ]
+  },
+  {
+    "course_name": "기흥호수공원",
+    "description": "경기도 용인시의 호수 러닝 코스입니다. 총 거리는 약 4.5km입니다.",
+    "length_km": 4.5,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "용인시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "용인시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "경안천",
+    "description": "경기도 용인시의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "용인시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "용인시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "미르스타디움 트랙",
+    "description": "경기도 용인시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "용인시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "용인시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "동탄여울공원",
+    "description": "경기도 화성시의 공원 러닝 코스입니다. 총 거리는 약 1.5km입니다.",
+    "length_km": 1.5,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "화성시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "화성시",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "동탄호수공원",
+    "description": "경기도 화성시의 호수 러닝 코스입니다. 총 거리는 약 3.8km입니다.",
+    "length_km": 3.75,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "화성시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "화성시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "치동천",
+    "description": "경기도 화성시의 하천 러닝 코스입니다. 총 거리는 약 9.0km입니다.",
+    "length_km": 9.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "화성시"
+    ],
+    "neighborhood_tags": [
+      "치동"
+    ],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "화성시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "동탄센트럴파크",
+    "description": "경기도 화성시의 공원 러닝 코스입니다. 총 거리는 약 3.0km입니다.",
+    "length_km": 3.0,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "화성시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "화성시",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "제부도 해안",
+    "description": "경기도 화성시의 해안 러닝 코스입니다. 총 거리는 약 5.0km입니다.",
+    "length_km": 5.0,
+    "course_type": "해안",
+    "note": "해안 코스",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "화성시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "해안"
+    ],
+    "city": "경기도",
+    "district": "화성시",
+    "tags": [
+      "해안"
+    ]
+  },
+  {
+    "course_name": "봉담2 생태체육공원 트랙",
+    "description": "경기도 화성시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "화성시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "화성시",
+    "tags": [
+      "트랙",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "향남종합운동장 외곽",
+    "description": "경기도 화성시의 트랙 러닝 코스입니다. 총 거리는 약 1.0km입니다.",
+    "length_km": 1.0,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "화성시"
+    ],
+    "neighborhood_tags": [
+      "향남종합운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "화성시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "오산천",
+    "description": "경기도 오산시의 하천 러닝 코스입니다. 총 거리는 약 9.0km입니다.",
+    "length_km": 9.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "오산시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "오산시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "오산종합운동장 트랙",
+    "description": "경기도 오산시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "오산시"
+    ],
+    "neighborhood_tags": [
+      "오산종합운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "오산시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "학의천~안양천 연결코스",
+    "description": "경기도 안양시의 하천 러닝 코스입니다. 총 거리는 약 23.0km입니다.",
+    "length_km": 23.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "안양시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "안양시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "박달동 하천로",
+    "description": "경기도 안양시의 하천 러닝 코스입니다. 총 거리는 약 5.0km입니다.",
+    "length_km": 5.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "안양시"
+    ],
+    "neighborhood_tags": [
+      "박달동"
+    ],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "안양시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "석수동 산책로",
+    "description": "경기도 안양시의 산책로 러닝 코스입니다. 총 거리는 약 4.0km입니다.",
+    "length_km": 4.0,
+    "course_type": "산책로",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "안양시"
+    ],
+    "neighborhood_tags": [
+      "석수동"
+    ],
+    "natural_tags": [
+      "산책로"
+    ],
+    "city": "경기도",
+    "district": "안양시",
+    "tags": [
+      "산책로"
+    ]
+  },
+  {
+    "course_name": "물왕호수",
+    "description": "경기도 시흥시의 호수 러닝 코스입니다. 총 거리는 약 4.5km입니다.",
+    "length_km": 4.5,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "시흥시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수"
+    ],
+    "city": "경기도",
+    "district": "시흥시",
+    "tags": [
+      "호수"
+    ]
+  },
+  {
+    "course_name": "배곧한울공원",
+    "description": "경기도 시흥시의 공원 러닝 코스입니다. 총 거리는 약 4.5km입니다.",
+    "length_km": 4.5,
+    "course_type": "공원",
+    "note": "해안 코스",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "시흥시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "해안",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "시흥시",
+    "tags": [
+      "해안",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "물왕호수~갯골생태공원~관곡지",
+    "description": "경기도 시흥시의 공원 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "공원",
+    "note": "연계 코스 가능",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "시흥시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "시흥시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "화정천",
+    "description": "경기도 안산시의 하천 러닝 코스입니다. 총 거리는 약 6.5km입니다.",
+    "length_km": 6.5,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "안산시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "안산시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "안산천",
+    "description": "경기도 안산시의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "안산시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "안산시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "화랑유원지",
+    "description": "경기도 안산시의 공원 러닝 코스입니다. 총 거리는 약 1.8km입니다.",
+    "length_km": 1.75,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "안산시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "안산시",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "안산호수공원",
+    "description": "경기도 안산시의 호수 러닝 코스입니다. 총 거리는 약 2.0km입니다.",
+    "length_km": 2.0,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "안산시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "안산시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "광교호수공원",
+    "description": "경기도 수원시의 호수 러닝 코스입니다. 총 거리는 약 4.8km입니다.",
+    "length_km": 4.8,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "수원시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "수원시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "원천리천",
+    "description": "경기도 수원시의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "수원시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "수원시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "의정부종합운동장 트랙",
+    "description": "경기도 의정부시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "의정부시"
+    ],
+    "neighborhood_tags": [
+      "의정부종합운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "의정부시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "소사벌레포츠타운 트랙",
+    "description": "경기도 평택시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "평택시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "평택시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "배다리생태공원",
+    "description": "경기도 평택시의 호수 러닝 코스입니다. 총 거리는 약 1.8km입니다.",
+    "length_km": 1.75,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "평택시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "평택시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "통복천",
+    "description": "경기도 평택시의 하천 러닝 코스입니다. 총 거리는 약 21.0km입니다.",
+    "length_km": 21.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "평택시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "평택시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "평택호 자전거길",
+    "description": "경기도 평택시의 호수 러닝 코스입니다. 총 거리는 약 30.0km입니다.",
+    "length_km": 30.0,
+    "course_type": "호수",
+    "note": "해안 코스",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "평택시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "해안"
+    ],
+    "city": "경기도",
+    "district": "평택시",
+    "tags": [
+      "호수",
+      "해안"
+    ]
+  },
+  {
+    "course_name": "라베니체 수변공원",
+    "description": "경기도 김포시의 수변 러닝 코스입니다. 총 거리는 약 2.2km입니다.",
+    "length_km": 2.25,
+    "course_type": "수변",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "김포시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "수변",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "김포시",
+    "tags": [
+      "수변",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "김포한강신도시 생태공원",
+    "description": "경기도 김포시의 공원 러닝 코스입니다. 총 거리는 약 2.0km입니다.",
+    "length_km": 2.0,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "김포시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "한강",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "김포시",
+    "tags": [
+      "한강",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "일산호수공원",
+    "description": "경기도 고양시의 호수 러닝 코스입니다. 총 거리는 약 4.7km입니다.",
+    "length_km": 4.7,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "고양시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "고양시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "어울림누리 별무리경기장",
+    "description": "경기도 고양시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "고양시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "고양시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "공릉천",
+    "description": "경기도 고양시의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "고양시",
+      "파주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "고양시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "파주스타디움 트랙",
+    "description": "경기도 파주시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "파주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "파주시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "운정호수공원",
+    "description": "경기도 파주시의 호수 러닝 코스입니다. 총 거리는 약 2.1km입니다.",
+    "length_km": 2.1,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "파주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "파주시",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "건강공원 트랙",
+    "description": "경기도 파주시의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "파주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "파주시",
+    "tags": [
+      "트랙",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "소리천",
+    "description": "경기도 파주시의 하천 러닝 코스입니다. 총 거리는 약 6.5km입니다.",
+    "length_km": 6.5,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "파주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "파주시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "별내카페거리~용암천",
+    "description": "경기도 남양주시의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "남양주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "남양주시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "왕숙천",
+    "description": "경기도 남양주시의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "남양주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "남양주시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "중랑천 남양주 구간",
+    "description": "서울, 경기도 남양주시의 하천 러닝 코스입니다. 총 거리는 약 20.0km입니다.",
+    "length_km": 20.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "서울",
+      "경기도"
+    ],
+    "district_tags": [
+      "남양주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "서울",
+    "district": "남양주시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "미사리 조정경기장",
+    "description": "경기도 하남시의 호수 러닝 코스입니다. 총 거리는 약 5.0km입니다.",
+    "length_km": 5.0,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "하남시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수"
+    ],
+    "city": "경기도",
+    "district": "하남시",
+    "tags": [
+      "호수"
+    ]
+  },
+  {
+    "course_name": "금모래은모래캠핑장~강천보",
+    "description": "경기도 여주시의 하천 러닝 코스입니다. 총 거리는 약 5.0km입니다.",
+    "length_km": 5.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "여주시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "여주시",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "관문체육공원 트랙",
+    "description": "경기도 과천시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "과천시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙",
+      "공원"
+    ],
+    "city": "경기도",
+    "district": "과천시",
+    "tags": [
+      "트랙",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "군포시 시민체육광장 트랙",
+    "description": "경기도 군포시의 트랙 러닝 코스입니다. 총 거리는 약 400m입니다.",
+    "length_km": 0.4,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [
+      "군포시"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경기도",
+    "district": "군포시",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "학의천",
+    "description": "경기도의 하천 러닝 코스입니다. 총 거리는 약 10.0km입니다.",
+    "length_km": 10.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "탄천",
+    "description": "경기도의 하천 러닝 코스입니다. 총 거리는 약 20.0km입니다.",
+    "length_km": 20.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경기도"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경기도",
+    "district": "",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "구드레공원~규암정류소",
+    "description": "충청도 부여의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "부여"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "충청도",
+    "district": "부여",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "백제보전망대",
+    "description": "충청도 부여의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "부여"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "충청도",
+    "district": "부여",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "노태공원",
+    "description": "충청도 천안의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "천안"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "충청도",
+    "district": "천안",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "성성호수공원",
+    "description": "충청도 천안의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "천안"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "충청도",
+    "district": "천안",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "축구센터",
+    "description": "충청도 천안의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "천안"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "충청도",
+    "district": "천안",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "단대천호지",
+    "description": "충청도 천안의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "천안"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "충청도",
+    "district": "천안",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "신정호",
+    "description": "충청도 아산의 기타 러닝 코스입니다. 총 거리는 약 4.8km입니다.",
+    "length_km": 4.8,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "아산"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "충청도",
+    "district": "아산",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "곡교천",
+    "description": "충청도 아산의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "아산"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "충청도",
+    "district": "아산",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "공주대 트랙",
+    "description": "충청도 공주의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "공주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "충청도",
+    "district": "공주",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "금강신관공원",
+    "description": "충청도 공주의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "공주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천",
+      "공원"
+    ],
+    "city": "충청도",
+    "district": "공주",
+    "tags": [
+      "하천",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "금강보행교",
+    "description": "충청도 세종의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "세종"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "충청도",
+    "district": "세종",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "방숙천",
+    "description": "충청도 세종의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "세종"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "충청도",
+    "district": "세종",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "제천",
+    "description": "충청도 세종의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "세종"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "충청도",
+    "district": "세종",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "호수공원",
+    "description": "충청도 세종의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "세종"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "충청도",
+    "district": "세종",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "은파호수공원",
+    "description": "충청도 군산의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "충청도"
+    ],
+    "district_tags": [
+      "군산"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수",
+      "공원"
+    ],
+    "city": "충청도",
+    "district": "군산",
+    "tags": [
+      "호수",
+      "공원"
+    ]
+  },
+  {
+    "course_name": "남강변",
+    "description": "경상도 진주의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "진주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경상도",
+    "district": "진주",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "경상대 트랙",
+    "description": "경상도 진주의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "진주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경상도",
+    "district": "진주",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "혁신도시 영천강",
+    "description": "경상도 진주의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "진주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경상도",
+    "district": "진주",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "종합운동장",
+    "description": "경상도 창원의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "양산",
+      "창원"
+    ],
+    "neighborhood_tags": [
+      "종합운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경상도",
+    "district": "창원",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "스포츠파크",
+    "description": "경상도 창원의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "창원"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "경상도",
+    "district": "창원",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "창원천",
+    "description": "경상도 창원의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "창원"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경상도",
+    "district": "창원",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "양산천",
+    "description": "경상도 양산의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "양산"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경상도",
+    "district": "양산",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "연초뚝길",
+    "description": "경상도 거제의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "거제"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "경상도",
+    "district": "거제",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "상문고~계룡중 산책로",
+    "description": "경상도 거제의 업힐 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "업힐",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "거제"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "업힐"
+    ],
+    "city": "경상도",
+    "district": "거제",
+    "tags": [
+      "업힐"
+    ]
+  },
+  {
+    "course_name": "해반천",
+    "description": "경상도 김해의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "김해"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경상도",
+    "district": "김해",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "연지공원",
+    "description": "경상도 김해의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "김해"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "경상도",
+    "district": "김해",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "진영공설운동장",
+    "description": "경상도 김해의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "김해"
+    ],
+    "neighborhood_tags": [
+      "진영공설운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경상도",
+    "district": "김해",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "호민저수지",
+    "description": "경상도 안동의 호수 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "안동"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수"
+    ],
+    "city": "경상도",
+    "district": "안동",
+    "tags": [
+      "호수"
+    ]
+  },
+  {
+    "course_name": "밀양강 둔치",
+    "description": "경상도 밀양의 하천 러닝 코스입니다. 총 거리는 약 5.0km입니다.",
+    "length_km": 5.0,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "밀양"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경상도",
+    "district": "밀양",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "형산강",
+    "description": "경상도 포항의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "포항"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "경상도",
+    "district": "포항",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "철길숲 연계코스",
+    "description": "경상도 포항의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": "연계 코스 가능",
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "포항"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "경상도",
+    "district": "포항",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "보문호수",
+    "description": "경상도 경주의 호수 러닝 코스입니다. 총 거리는 약 7.0km입니다.",
+    "length_km": 7.0,
+    "course_type": "호수",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "경주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "호수"
+    ],
+    "city": "경상도",
+    "district": "경주",
+    "tags": [
+      "호수"
+    ]
+  },
+  {
+    "course_name": "남매지",
+    "description": "경상도 경산의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "경산"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "경상도",
+    "district": "경산",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "동락공원",
+    "description": "경상도 구미의 공원 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "공원",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "구미"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "공원"
+    ],
+    "city": "경상도",
+    "district": "구미",
+    "tags": [
+      "공원"
+    ]
+  },
+  {
+    "course_name": "금오공대 트랙",
+    "description": "경상도 구미의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "경상도"
+    ],
+    "district_tags": [
+      "구미"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "경상도",
+    "district": "구미",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "삼천천",
+    "description": "전라도 전주의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "전주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "전라도",
+    "district": "전주",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "전주천",
+    "description": "전라도 전주의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "전주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "전라도",
+    "district": "전주",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "한옥마을",
+    "description": "전라도 전주의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "전주"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "전라도",
+    "district": "전주",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "공설운동장 트랙",
+    "description": "전라도 고창의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "고창"
+    ],
+    "neighborhood_tags": [
+      "공설운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "전라도",
+    "district": "고창",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "금강하구둑",
+    "description": "전라도 군산의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "군산"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "전라도",
+    "district": "군산",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "경포천",
+    "description": "전라도 군산의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "군산"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "전라도",
+    "district": "군산",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "영산강 하구둑~삼호대교",
+    "description": "전라도 목포의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "목포"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "전라도",
+    "district": "목포",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "평화광장~갓바위",
+    "description": "전라도 목포의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "목포"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "전라도",
+    "district": "목포",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "옛철길자전거길",
+    "description": "전라도 여수의 기타 러닝 코스입니다. 총 거리는 약 16.0km입니다.",
+    "length_km": 16.0,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "전라도"
+    ],
+    "district_tags": [
+      "여수"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "전라도",
+    "district": "여수",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "의암호",
+    "description": "강원도 춘천의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "강원도"
+    ],
+    "district_tags": [
+      "춘천"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "강원도",
+    "district": "춘천",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "공지천",
+    "description": "강원도 춘천의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "강원도"
+    ],
+    "district_tags": [
+      "춘천"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "강원도",
+    "district": "춘천",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "소양강산책로",
+    "description": "강원도 춘천의 하천 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "하천",
+    "note": null,
+    "difficulty": "hard",
+    "elevation": "평지",
+    "region_tags": [
+      "강원도"
+    ],
+    "district_tags": [
+      "춘천"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "하천"
+    ],
+    "city": "강원도",
+    "district": "춘천",
+    "tags": [
+      "하천"
+    ]
+  },
+  {
+    "course_name": "중도",
+    "description": "강원도 춘천의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "강원도"
+    ],
+    "district_tags": [
+      "춘천"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "강원도",
+    "district": "춘천",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "경포대",
+    "description": "강원도 강릉의 기타 러닝 코스입니다. 총 거리는 약 4.3km입니다.",
+    "length_km": 4.3,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "강원도"
+    ],
+    "district_tags": [
+      "강릉"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "강원도",
+    "district": "강릉",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "영랑호 순환로",
+    "description": "강원도 속초의 기타 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "강원도"
+    ],
+    "district_tags": [
+      "속초"
+    ],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "강원도",
+    "district": "속초",
+    "tags": [
+      "기타"
+    ]
+  },
+  {
+    "course_name": "제주 애향운동장 트랙",
+    "description": "제주의 트랙 러닝 코스입니다.",
+    "length_km": null,
+    "course_type": "트랙",
+    "note": "정규 트랙 시설",
+    "difficulty": "easy",
+    "elevation": "평지",
+    "region_tags": [
+      "제주"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [
+      "애향운동"
+    ],
+    "natural_tags": [
+      "트랙"
+    ],
+    "city": "제주",
+    "district": "",
+    "tags": [
+      "트랙"
+    ]
+  },
+  {
+    "course_name": "사라봉~오현고~화북포구~남생이못",
+    "description": "제주의 기타 러닝 코스입니다. 총 거리는 약 20.0km입니다.",
+    "length_km": 20.0,
+    "course_type": "기타",
+    "note": null,
+    "difficulty": "medium",
+    "elevation": "평지",
+    "region_tags": [
+      "제주"
+    ],
+    "district_tags": [],
+    "neighborhood_tags": [],
+    "natural_tags": [
+      "기타"
+    ],
+    "city": "제주",
+    "district": "",
+    "tags": [
+      "기타"
+    ]
+  }
+]

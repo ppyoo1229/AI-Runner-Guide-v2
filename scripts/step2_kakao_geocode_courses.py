@@ -9,7 +9,7 @@ import json
 import os
 import time
 import httpx
-from typing import Dict, Optional, List
+from typing import Dict, Optional, List, Any
 from supabase import create_client, Client
 
 # 환경 변수 (앞뒤 공백 제거)
@@ -23,6 +23,34 @@ if not all([KAKAO_REST_API_KEY, SUPABASE_URL, SUPABASE_SERVICE_KEY]):
 # API 키 유효성 사전 확인
 if len(KAKAO_REST_API_KEY) < 10:
     raise ValueError(f"KAKAO_REST_API_KEY가 너무 짧습니다 (길이: {len(KAKAO_REST_API_KEY)})")
+
+def ensure_list(value: Any) -> List[str]:
+    """
+    JSONB 배열 컬럼에 넣기 전에 Python 리스트로 보정
+    - None -> []
+    - 문자열(JSON) -> 파싱
+    - 단일 문자열 -> [value]
+    """
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return value
+    if isinstance(value, tuple):
+        return list(value)
+    if isinstance(value, str):
+        stripped = value.strip()
+        if not stripped:
+            return []
+        try:
+            # JSON 배열 문자열인 경우
+            parsed = json.loads(stripped)
+            if isinstance(parsed, list):
+                return parsed
+        except json.JSONDecodeError:
+            pass
+        return [stripped]
+    return [value]
+
 
 def search_kakao_place(course_name: str, city: str, district: str) -> Optional[Dict]:
     """
@@ -183,11 +211,11 @@ def geocode_courses_from_file(input_file: str = "data/normalized_courses.json"):
                     "note": course.get('note'),
                     "has_uphill": course.get('elevation') == '업힐' or '업힐' in course.get('course_type', ''),
                     # JSONB 배열 컬럼 (Python 리스트를 직접 전달하면 Supabase가 자동으로 JSONB로 변환)
-                    "tags": course.get('tags', []) or [],
-                    "region_tags": course.get('region_tags', []) or [],
-                    "district_tags": course.get('district_tags', []) or [],
-                    "neighborhood_tags": course.get('neighborhood_tags', []) or [],
-                    "natural_tags": course.get('natural_tags', []) or [],
+                    "tags": ensure_list(course.get('tags')),
+                    "region_tags": ensure_list(course.get('region_tags')),
+                    "district_tags": ensure_list(course.get('district_tags')),
+                    "neighborhood_tags": ensure_list(course.get('neighborhood_tags')),
+                    "natural_tags": ensure_list(course.get('natural_tags')),
                     "kakao_course_name": kakao_info['place_name'],
                     "kakao_course_info": kakao_info,
                     "kakao_place_id": kakao_info['place_id'],
@@ -204,24 +232,10 @@ def geocode_courses_from_file(input_file: str = "data/normalized_courses.json"):
                     existing_course = existing.data[0]
                     
                     # 기존 태그를 리스트로 변환 (JSONB에서 가져올 때 이미 리스트일 수 있음)
-                    existing_region_tags = existing_course.get('region_tags') or []
-                    existing_district_tags = existing_course.get('district_tags') or []
-                    existing_neighborhood_tags = existing_course.get('neighborhood_tags') or []
-                    existing_natural_tags = existing_course.get('natural_tags') or []
-                    
-                    # 문자열로 저장된 경우를 대비해 리스트로 변환
-                    if isinstance(existing_region_tags, str):
-                        import json
-                        existing_region_tags = json.loads(existing_region_tags) if existing_region_tags else []
-                    if isinstance(existing_district_tags, str):
-                        import json
-                        existing_district_tags = json.loads(existing_district_tags) if existing_district_tags else []
-                    if isinstance(existing_neighborhood_tags, str):
-                        import json
-                        existing_neighborhood_tags = json.loads(existing_neighborhood_tags) if existing_neighborhood_tags else []
-                    if isinstance(existing_natural_tags, str):
-                        import json
-                        existing_natural_tags = json.loads(existing_natural_tags) if existing_natural_tags else []
+                    existing_region_tags = ensure_list(existing_course.get('region_tags'))
+                    existing_district_tags = ensure_list(existing_course.get('district_tags'))
+                    existing_neighborhood_tags = ensure_list(existing_course.get('neighborhood_tags'))
+                    existing_natural_tags = ensure_list(existing_course.get('natural_tags'))
                     
                     # 태그 병합 (중복 제거)
                     merged_region_tags = list(set(

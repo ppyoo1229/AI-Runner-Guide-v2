@@ -73,8 +73,18 @@ def badges_from_features(f: Dict) -> list[str]:
     return badges or ["기본"]
 
 # =========================
-# 가로등 CSV 로딩 & 조명지수
+# 가로등 CSV 로딩 & 조명지수 (Fallback용)
 # =========================
+# 
+# [주의] 이 모듈의 조명지수 계산은 동적 루프 생성 시 fallback으로만 사용됩니다.
+# DB에 저장된 코스의 경우, 사전 계산된 lighting_score를 사용하세요.
+# 사전 계산은 precompute_course_safety_data_2025_11_19_13_00.ts 스크립트를 사용합니다.
+#
+# 프로세스:
+# 1. 코스 x 카맵으로 코스명/정보 추출
+# 2. 안전데이터 매핑 (가로등, 시설 등)
+# 3. DB에 사전 계산된 데이터 저장
+# 4. 조회 시 DB에서 사전 계산된 데이터 사용
 
 # 내부 전역(앱 시작 시 한 번 로딩)
 _LAMPS_GDF: Optional[gpd.GeoDataFrame] = None
@@ -150,6 +160,10 @@ def lighting_index_for_route(
     루트(LineString)의 주변 버퍼(미터) 안에 포함되는 가로등 포인트 개수를 길이(km)로 정규화해
     조명 지수를 계산
     - 반환: (lighting_index[0~1], lamps_per_km)
+
+    [주의] 이 함수는 동적으로 생성되는 루프 후보에 대한 fallback 계산용입니다.
+    DB에 저장된 코스(running_courses_2025_11_19_10_42)의 경우, 
+    사전 계산된 lighting_score를 사용하세요 (precompute_course_safety_data 스크립트 참조).
 
     * _LAMPS_GDF가 로딩되지 않았다면 (0.5, 0.0) 기본값을 반환
     * lamps_per_km_max는 데이터 분포에 맞게 조정하면 좋다(예: 30~80 사이)

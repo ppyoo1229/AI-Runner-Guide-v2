@@ -1,0 +1,7 @@
+-- STEP 4: 안전 점수 계산 결과 저장용 컬럼 추가
+ALTER TABLE public.running_courses_2025_11_20_10_07 
+ADD COLUMN IF NOT EXISTS safe_light_score DECIMAL(5,2) DEFAULT 0.0,
+ADD COLUMN IF NOT EXISTS safe_area_score DECIMAL(5,2) DEFAULT 0.0,
+ADD COLUMN IF NOT EXISTS avg_light_density DECIMAL(5,2) DEFAULT 0.0,
+ADD COLUMN IF NOT EXISTS avg_crime_index DECIMAL(5,2) DEFAULT 0.0,
+ADD COLUMN IF NOT EXISTS recommendation_weight DECIMAL(5,2) DEFAULT 0.0;
