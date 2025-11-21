@@ -20,6 +20,7 @@ interface RunningCourse {
   region_tags: string[];
   natural_tags: string[];
   safetyInfo?: SafetyInfo;
+  distanceFromUser?: number;
 }
 
 interface SafetyInfo {
@@ -172,7 +173,14 @@ const Index = () => {
     
     // 검색 결과
     if (courses.length === 0) {
-      response += '😅 조건에 맞는 코스를 찾지 못했어요.\n다른 지역이나 조건으로 다시 검색해보시겠어요?';
+      let suggestion = '다른 지역이나 조건으로 다시 검색해보는 건 어떠세요?';
+      if (parsed.distance || parsed.duration) {
+        suggestion = '거리나 시간 제한을 없애고 다시 검색해볼까요?';
+      } else if (parsed.location) {
+        suggestion = `${parsed.location} 주변에 더 넓은 범위로 찾아볼까요?`;
+      }
+      response += `😅 조건에 맞는 코스를 찾지 못했어요.\n${suggestion}\n\n`;
+      response += `언제 뛸 예정이신가요? 또는 어떤 종류의 런닝을 선호하세요? (예: 가벼운 산책, 장거리 훈련)`;
     } else {
       response += `🏃‍♂️ ${courses.length}개 코스를 찾았어요!\n\n`;
       
@@ -577,117 +585,131 @@ const Index = () => {
                 <div className="max-w-4xl mx-auto">
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {filteredCourses.map((course) => (
-                      <Card key={course.id} className="running-card hover:glow-effect transition-all duration-300 cursor-pointer">
-                        <CardHeader className="pb-3">
-                          <div className="flex items-start justify-between">
-                            <div className="flex-1">
-                              <CardTitle className="text-base mb-1 text-foreground">{course.name}</CardTitle>
-                              <CardDescription className="text-xs text-muted-foreground">
-                                {course.city} {course.district}
-                              </CardDescription>
+                      <a 
+                        key={course.id}
+                        href={`https://map.kakao.com/link/search/${encodeURIComponent(course.name)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block running-card hover:glow-effect transition-all duration-300"
+                      >
+                        <Card className="h-full cursor-pointer">
+                          <CardHeader className="pb-3">
+                            <div className="flex items-start justify-between">
+                              <div className="flex-1">
+                                <CardTitle className="text-base mb-1 text-foreground">{course.name}</CardTitle>
+                                <CardDescription className="text-xs text-muted-foreground">
+                                  {course.city} {course.district}
+                                </CardDescription>
+                              </div>
+                              <Badge variant="outline" className="text-xs">
+                                {course.course_type}
+                              </Badge>
                             </div>
-                            <Badge variant="outline" className="text-xs">
-                              {course.course_type}
-                            </Badge>
-                          </div>
-                        </CardHeader>
-                        
-                        <CardContent className="space-y-3 pt-0">
-                          <p className="text-xs text-muted-foreground line-clamp-2">
-                            {course.description}
-                          </p>
+                          </CardHeader>
                           
-                          {/* 코스 정보 */}
-                          <div className="flex items-center gap-3 text-xs">
-                            <div className="flex items-center gap-1">
-                              <MapPin className="w-3 h-3 text-primary" />
-                              <span>{course.distance_km}km</span>
-                            </div>
-                            <div className="flex items-center gap-1">
-                              <Clock className="w-3 h-3 text-primary" />
-                              <span>{course.estimated_duration_minutes}분</span>
-                            </div>
-                            {course.has_uphill && (
+                          <CardContent className="space-y-3 pt-0">
+                            <p className="text-xs text-muted-foreground line-clamp-2">
+                              {course.description}
+                            </p>
+                            
+                            {/* 코스 정보 */}
+                            <div className="flex items-center flex-wrap gap-x-3 gap-y-1 text-xs">
                               <div className="flex items-center gap-1">
-                                <Zap className="w-3 h-3 text-yellow-500" />
-                                <span>업힐</span>
+                                <MapPin className="w-3 h-3 text-primary" />
+                                <span>{course.distance_km}km</span>
+                              </div>
+                              <div className="flex items-center gap-1">
+                                <Clock className="w-3 h-3 text-primary" />
+                                <span>{course.estimated_duration_minutes}분</span>
+                              </div>
+                              {course.has_uphill && (
+                                <div className="flex items-center gap-1">
+                                  <Zap className="w-3 h-3 text-yellow-500" />
+                                  <span>업힐</span>
+                                </div>
+                              )}
+                              {course.distanceFromUser !== undefined && (
+                                <div className="flex items-center gap-1 font-bold text-primary">
+                                  <Users className="w-3 h-3" />
+                                  <span>내 위치에서 {course.distanceFromUser.toFixed(1)}km</span>
+                                </div>
+                              )}
+                            </div>
+                            
+                            {/* 안전 정보 */}
+                            {course.safetyInfo && (
+                              <div className="space-y-2">
+                                <div className="flex items-center justify-between">
+                                  <div className="flex items-center gap-1">
+                                    <Shield className="w-3 h-3 text-accent" />
+                                    <span className="text-xs">안전도</span>
+                                  </div>
+                                  <Badge className={`text-xs ${getSafetyBadgeClass(course.safetyInfo.safetyLevel)}`}>
+                                    {getSafetyText(course.safetyInfo.safetyLevel)}
+                                  </Badge>
+                                </div>
+                                
+                                {/* 조명 정보 */}
+                                <div className="flex items-center gap-3 text-xs text-muted-foreground">
+                                  <div className="flex items-center gap-1">
+                                    <Lightbulb className="w-3 h-3" />
+                                    <span>{course.safetyInfo.totalLights}개</span>
+                                  </div>
+                                  <div>
+                                    <span>밀도 {course.safetyInfo.lightDensity}개/km</span>
+                                  </div>
+                                </div>
+                                
+                                {/* 시설 및 특징 */}
+                                <div className="flex flex-wrap gap-1">
+                                  {course.safetyInfo.isNightSafe && (
+                                    <Badge variant="secondary" className="text-xs bg-green-500/20 text-green-400">
+                                      야간러닝
+                                    </Badge>
+                                  )}
+                                  {course.safetyInfo.isGroupFriendly && (
+                                    <Badge variant="secondary" className="text-xs bg-blue-500/20 text-blue-400">
+                                      <Users className="w-3 h-3 mr-1" />
+                                      크루러닝
+                                    </Badge>
+                                  )}
+                                  {course.safetyInfo.facilities.slice(0, 2).map((facility, index) => (
+                                    <Badge key={index} variant="secondary" className="text-xs">
+                                      {facility === '주차장' && <Car className="w-3 h-3 mr-1" />}
+                                      {facility === '화장실' && <Coffee className="w-3 h-3 mr-1" />}
+                                      {facility}
+                                    </Badge>
+                                  ))}
+                                </div>
                               </div>
                             )}
-                          </div>
-                          
-                          {/* 안전 정보 */}
-                          {course.safetyInfo && (
-                            <div className="space-y-2">
+                            
+                            {/* 기본 안전 정보 (상세 정보가 없을 때) */}
+                            {!course.safetyInfo && (
                               <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-1">
-                                  <Shield className="w-3 h-3 text-accent" />
-                                  <span className="text-xs">안전도</span>
+                                  <Shield className="w-3 h-3 text-muted-foreground" />
+                                  <span className="text-xs text-muted-foreground">안전 정보</span>
                                 </div>
-                                <Badge className={`text-xs ${getSafetyBadgeClass(course.safetyInfo.safetyLevel)}`}>
-                                  {getSafetyText(course.safetyInfo.safetyLevel)}
+                                <Badge variant="secondary" className="text-xs">
+                                  정보 없음
                                 </Badge>
                               </div>
-                              
-                              {/* 조명 정보 */}
-                              <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                                <div className="flex items-center gap-1">
-                                  <Lightbulb className="w-3 h-3" />
-                                  <span>{course.safetyInfo.totalLights}개</span>
-                                </div>
-                                <div>
-                                  <span>밀도 {course.safetyInfo.lightDensity}개/km</span>
-                                </div>
-                              </div>
-                              
-                              {/* 시설 및 특징 */}
+                            )}
+                            
+                            {/* 태그 */}
+                            {course.natural_tags && course.natural_tags.length > 0 && (
                               <div className="flex flex-wrap gap-1">
-                                {course.safetyInfo.isNightSafe && (
-                                  <Badge variant="secondary" className="text-xs bg-green-500/20 text-green-400">
-                                    야간러닝
-                                  </Badge>
-                                )}
-                                {course.safetyInfo.isGroupFriendly && (
-                                  <Badge variant="secondary" className="text-xs bg-blue-500/20 text-blue-400">
-                                    <Users className="w-3 h-3 mr-1" />
-                                    크루러닝
-                                  </Badge>
-                                )}
-                                {course.safetyInfo.facilities.slice(0, 2).map((facility, index) => (
+                                {course.natural_tags.slice(0, 3).map((tag, index) => (
                                   <Badge key={index} variant="secondary" className="text-xs">
-                                    {facility === '주차장' && <Car className="w-3 h-3 mr-1" />}
-                                    {facility === '화장실' && <Coffee className="w-3 h-3 mr-1" />}
-                                    {facility}
+                                    {tag}
                                   </Badge>
                                 ))}
                               </div>
-                            </div>
-                          )}
-                          
-                          {/* 기본 안전 정보 (상세 정보가 없을 때) */}
-                          {!course.safetyInfo && (
-                            <div className="flex items-center justify-between">
-                              <div className="flex items-center gap-1">
-                                <Shield className="w-3 h-3 text-muted-foreground" />
-                                <span className="text-xs text-muted-foreground">안전 정보</span>
-                              </div>
-                              <Badge variant="secondary" className="text-xs">
-                                정보 없음
-                              </Badge>
-                            </div>
-                          )}
-                          
-                          {/* 태그 */}
-                          {course.natural_tags && course.natural_tags.length > 0 && (
-                            <div className="flex flex-wrap gap-1">
-                              {course.natural_tags.slice(0, 3).map((tag, index) => (
-                                <Badge key={index} variant="secondary" className="text-xs">
-                                  {tag}
-                                </Badge>
-                              ))}
-                            </div>
-                          )}
-                        </CardContent>
-                      </Card>
+                            )}
+                          </CardContent>
+                        </Card>
+                      </a>
                     ))}
                   </div>
                 </div>

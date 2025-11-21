@@ -21,7 +21,7 @@ serve(async (req) => {
     // 모든 코스 조회
     const { data: courses, error: fetchError } = await supabase
       .from('running_courses_2025_11_20_10_07')
-      .select('id, name, start_lat, start_lng, distance_km')
+      .select('id, name, start_lat, start_lng, distance_km, course_type, natural_tags')
       .not('start_lat', 'is', null)
       .not('start_lng', 'is', null);
 
@@ -61,19 +61,23 @@ serve(async (req) => {
         console.log(`${safetyPoints.length}개의 안전 포인트 발견`);
         
         // 안전 점수 계산
-        const safetyScores = computeSafetyScores(safetyPoints, course.distance_km || 3.0);
+        const { scores, tags } = computeSafetyScores(safetyPoints, course);
+        
+        // 기존 태그와 새로운 태그 병합 (중복 제거)
+        const existingTags = course.natural_tags || [];
+        const finalTags = [...new Set([...existingTags, ...tags])];
         
         // DB 업데이트
         const { error: updateError } = await supabase
           .from('running_courses_2025_11_20_10_07')
-          .update(safetyScores)
+          .update({ ...scores, natural_tags: finalTags })
           .eq('id', course.id);
 
         if (updateError) {
           console.error(`업데이트 실패 (${course.name}):`, updateError);
           failCount++;
         } else {
-          console.log(`✅ 계산 완료: weight=${safetyScores.recommendation_weight}`);
+          console.log(`✅ 계산 완료: weight=${scores.recommendation_weight}`);
           successCount++;
         }
 
@@ -152,14 +156,28 @@ async function getNearbySafetyPoints(supabase: any, centerLat: number, centerLng
   return nearbyPoints;
 }
 
-function computeSafetyScores(safetyPoints: any[], courseLengthKm: number) {
+function computeSafetyScores(safetyPoints: any[], course: any) {
+  const courseLengthKm = course.distance_km || 3.0;
+  const tags = new Set<string>();
+
+  // 코스 유형 태그
+  if (course.course_type) {
+    if (course.course_type.includes('공원')) tags.add('#공원런닝');
+    if (course.course_type.includes('트랙')) tags.add('#트랙런닝');
+    if (course.course_type.includes('강변')) tags.add('#강변런닝');
+    if (course.course_type.includes('해변')) tags.add('#해변런닝');
+  }
+
   if (!safetyPoints || safetyPoints.length === 0) {
     return {
-      safe_light_score: 0.0,
-      safe_area_score: 0.0,
-      avg_light_density: 0.0,
-      avg_crime_index: 0.0,
-      recommendation_weight: 0.0,
+      scores: {
+        safe_light_score: 0.0,
+        safe_area_score: 0.0,
+        avg_light_density: 0.0,
+        avg_crime_index: 0.0,
+        recommendation_weight: 0.0,
+      },
+      tags: Array.from(tags),
     };
   }
 
@@ -198,14 +216,24 @@ function computeSafetyScores(safetyPoints: any[], courseLengthKm: number) {
     (100.0 - avgCrimeIndex) * 0.2 +
     Math.min(100.0, avgLightDensity * 5) * 0.1  // 밀도가 높을수록 좋음
   );
+  
+  // 점수 기반 태그 생성
+  if (avgLightDensity >= 10) tags.add('#야간러닝가능');
+  if (avgLightDensity >= 15) tags.add('#가로등많음');
+  if (avgLightDensity < 5 && safeAreaScore > 60) tags.add('#조용한산책');
+  if (recommendationWeight > 70) tags.add('#초보자추천');
+  if (courseLengthKm >= 2.0 && avgLightDensity >= 5) tags.add('#크루런닝추천');
+  if (course.course_type === '트랙') tags.add('#우천시가능');
 
-  return {
+  const scores = {
     safe_light_score: Math.round(safeLightScore * 100) / 100,
     safe_area_score: Math.round(safeAreaScore * 100) / 100,
     avg_light_density: Math.round(avgLightDensity * 100) / 100,
     avg_crime_index: Math.round(avgCrimeIndex * 100) / 100,
     recommendation_weight: Math.round(recommendationWeight * 100) / 100,
   };
+
+  return { scores, tags: Array.from(tags) };
 }
 
 function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
